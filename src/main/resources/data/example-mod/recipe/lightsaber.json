@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "#L#",
+    "#A#"
+  ],
+  "key": {
+    "L": "minecraft:lever",
+    "A": "minecraft:amethyst_shard",
+    "G": "minecraft:glass",
+    "#": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "star-wars:lightsaber",
+    "count": 1
+  }
+}

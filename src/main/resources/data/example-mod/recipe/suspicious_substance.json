@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:fermented_spider_eye",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "star-wars:suspicious_substance",
+    "count": 4
+  }
+}

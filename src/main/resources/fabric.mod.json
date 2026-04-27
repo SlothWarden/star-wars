@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "tutor",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "STAR WARS",
+	"description": "A Star Wars Mod!",
 	"authors": [
-		"Me!"
+		"SlothWarden"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/star-wars/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.example.StarWars"
 		],
 		"client": [
 			"com.example.client.ExampleModClient"

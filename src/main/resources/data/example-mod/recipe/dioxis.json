@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "#L#",
+    "#A#"
+  ],
+  "key": {
+    "L": "star-wars:suspicious_substance",
+    "A": "minecraft:stone_button",
+    "G": "minecraft:iron_ingot",
+    "#": "minecraft:glass"
+  },
+  "result": {
+    "id": "star-wars:dioxis",
+    "count": 1
+  }
+}

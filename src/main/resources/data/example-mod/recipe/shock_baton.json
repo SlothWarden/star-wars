@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "#L#",
+    "#B#"
+  ],
+  "key": {
+    "B": "minecraft:stone_button",
+    "G": "minecraft:redstone_torch",
+    "L": "minecraft:redstone",
+    "#": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "star-wars:shock_baton",
+    "count": 1
+  }
+}

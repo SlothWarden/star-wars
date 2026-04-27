@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:sugar",
+
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_rabbit"
+  ],
+  "result": {
+    "id": "star-wars:nut_cube",
+    "count": 1
+  }
+}
