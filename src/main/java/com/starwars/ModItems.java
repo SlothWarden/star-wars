@@ -1,4 +1,4 @@
-package com.example;
+package com.starwars;
 
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
@@ -17,7 +17,6 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
-import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Function;
 
@@ -78,6 +77,8 @@ public class ModItems {
     );
 
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
+    public static final Item DURASTEEL_INGOT = register("durasteel_ingot", Item::new, new Item.Properties());
+
     public static final Item LIGHTSABER = register(
             "lightsaber",
             Item::new,
@@ -108,6 +109,7 @@ public class ModItems {
                 output.accept(ModItems.LIGHTSABER);
                 output.accept(ModItems.NUT_CUBE);
                 output.accept(ModItems.SHOCK_BATON);
+                output.accept(ModBlocks.DURASTEEL);
 
 
 

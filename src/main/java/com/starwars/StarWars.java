@@ -1,4 +1,4 @@
-package com.example;
+package com.starwars;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -10,8 +10,8 @@ import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.example.ModItems.CUSTOM_CREATIVE_TAB;
-import static com.example.ModItems.CUSTOM_CREATIVE_TAB_KEY;
+import static com.starwars.ModItems.CUSTOM_CREATIVE_TAB;
+import static com.starwars.ModItems.CUSTOM_CREATIVE_TAB_KEY;
 
 
 public class StarWars implements ModInitializer {
@@ -23,11 +23,11 @@ public class StarWars implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.initialize();
+		ModBlocks.initialize();
 		LOGGER.info("Hello Fabric world!");
 
 		// Get the event for modifying entries in the ingredients group.
@@ -43,8 +43,6 @@ public class StarWars implements ModInitializer {
 
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS)
 				.register((creativeTab) -> creativeTab.accept(ModItems.NUT_CUBE));
-		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INVENTORY)
-				.register((creativeTab) -> creativeTab.accept(ModItems.SUSPICIOUS_SUBSTANCE));
 
 
 

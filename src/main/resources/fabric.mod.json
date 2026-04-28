@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tutor",
+	"id": "star-wars",
 	"version": "${version}",
 	"name": "STAR WARS",
 	"description": "A Star Wars Mod!",
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.StarWars"
+			"com.starwars.StarWars"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.starwars.client.ExampleModClient"
 		]
 	},
 	"mixins": [

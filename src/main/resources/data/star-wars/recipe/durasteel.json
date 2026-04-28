@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "star-wars:durasteel_ingot"
+  },
+  "result": {
+    "id": "star-wars:durasteel",
+    "count": 4
+  }
+}

@@ -9,7 +9,7 @@
     "L": "minecraft:lever",
     "A": "minecraft:amethyst_shard",
     "G": "minecraft:glass",
-    "#": "minecraft:iron_ingot"
+    "#": "star-wars:durasteel_ingot"
   },
   "result": {
     "id": "star-wars:lightsaber",

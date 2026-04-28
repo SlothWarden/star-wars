@@ -9,7 +9,7 @@
     "B": "minecraft:stone_button",
     "G": "minecraft:redstone_torch",
     "L": "minecraft:redstone",
-    "#": "minecraft:iron_ingot"
+    "#": "minecraft:durasteel_ingot"
   },
   "result": {
     "id": "star-wars:shock_baton",

@@ -1,4 +1,4 @@
-package com.example;
+package com.starwars;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

@@ -9,7 +9,10 @@
   "item.star-wars.clone_leggings": "Guide Leggings",
   "item.star-wars.clone_boots": "Guide Boots",
   "item.star-wars.nut_cube": "Clone Nutrition Cube",
-  "item.star-wars.shock_baton": "Shock Baton"
+  "item.star-wars.shock_baton": "Shock Baton",
+  "block.star-wars.durasteel": "Durasteel",
+  "item.star-wars.durasteel_ingot": "Durasteel Ingot"
+
 
 
 }
